@@ -61,6 +61,6 @@ public class TCPConnection {
 
     @Override
     public String toString() {
-        return "TCPConnection: " + socket.getInetAddress() + ": " + socket.getPort();
+        return " " + socket.getInetAddress() + ": " + socket.getPort();
     }
 }
